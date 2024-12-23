@@ -9,6 +9,7 @@ import static com.orangehrmlive.opensource_demo.userInterfaces.AgendarEntrevista
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class InterviewTask implements Task {
+
     private final String titleInterview;
 
     public InterviewTask(String titleInterview) {
@@ -23,8 +24,6 @@ public class InterviewTask implements Task {
                 Enter.theValue(titleInterview).into(INPUT_INTERVIEWTITLE)
         );
     }
-
-
 }
 
 

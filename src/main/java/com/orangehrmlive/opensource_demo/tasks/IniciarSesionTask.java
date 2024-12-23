@@ -8,7 +8,6 @@ import net.serenitybdd.screenplay.actions.Enter;
 import static com.orangehrmlive.opensource_demo.userInterfaces.IniciarSesionIU.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-
 public class IniciarSesionTask implements Task {
 
     private String userName;

@@ -1,7 +1,6 @@
 # author: Santiago Bedoya
 # language: es
 
-
 Característica: Proceso de contratación en "OrangeHRM"
 
   @ProcesoContratacion

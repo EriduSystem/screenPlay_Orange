@@ -17,16 +17,12 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 
 public class DatosCandidatoTask implements Task {
 
-
     private final String firstName;
     private final String middleName;
     private final String lastName;
     private final String email;
     private final String number;
-
     private final String keywords;
-
-
 
     public DatosCandidatoTask(String firstName, String middleName, String lastName, String email, String number, String keywords) {
         this.firstName = firstName;
@@ -36,8 +32,6 @@ public class DatosCandidatoTask implements Task {
         this.number = number;
         this.keywords = keywords;
     }
-
-
 
     @Override
     public <T extends Actor> void performAs(T actor) {

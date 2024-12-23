@@ -94,13 +94,11 @@ public class ProcesoContratacionStepDefinitions {
                 AgendarEntrevistaTask.withDetails("Sania", "2024-08-15")
         );//revisar
         OnStage.theActorCalled(actor).wasAbleTo(FinalizarProcesoTask.buttons());
-
-
     }
 
     @Entonces("los datos deberían coincidir con los ingresados y el estado debería ser {string}")
     public void losDatosDeberíanCoincidirConLosIngresadosYElEstadoDeberíaSer(String string) {
-
+        //
     }
 
 

@@ -6,7 +6,6 @@ import net.serenitybdd.screenplay.actions.Click;
 
 import static com.orangehrmlive.opensource_demo.userInterfaces.FinalizarProcesoIU.*;
 
-
 public class FinalizarProcesoTask implements Task {
 
     @Override
@@ -19,7 +18,6 @@ public class FinalizarProcesoTask implements Task {
                 Click.on(BUTTON_HIRE),
                 Click.on(BUTTON_SAVE_HIRE)
         );
-
     }
 
     public static FinalizarProcesoTask buttons() {

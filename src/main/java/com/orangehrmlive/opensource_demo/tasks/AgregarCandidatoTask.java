@@ -6,7 +6,6 @@ import net.serenitybdd.screenplay.actions.Click;
 import static com.orangehrmlive.opensource_demo.userInterfaces.AgregarCandidatoIU.*;
 import static com.orangehrmlive.opensource_demo.utils.Constants.TIME_SHORT;
 
-
 public class AgregarCandidatoTask implements Task {
 
     @Override

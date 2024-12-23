@@ -10,7 +10,6 @@ import net.thucydides.core.util.EnvironmentVariables;
 import static com.orangehrmlive.opensource_demo.utils.Constants.WEB_URL;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-
 public class AbrirPaginaTask implements Task {
 
     private EnvironmentVariables environmentVariables;
